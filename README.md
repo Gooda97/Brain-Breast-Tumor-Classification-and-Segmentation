@@ -63,4 +63,4 @@ You can find the hierarchy and the model metrics in the PDF file [here](<https:/
 
 ## Deployment
 
-We made the deployment on a Flask server that you acn run using the file [test.py](https://github.com/Gooda97/Brain-Breast-Tumor-Classification-and-Segmentation/blob/main/Deploy/test.py)
+We made the deployment on a Flask server that you acn run using the file [test.py](https://github.com/Gooda97/Brain-Breast-Tumor-Classification-and-Segmentation/blob/main/Deploy/test.py) After training all the models and place the trained models in this [directory](https://github.com/Gooda97/Brain-Breast-Tumor-Classification-and-Segmentation/tree/main/Deploy)
