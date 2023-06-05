@@ -1,7 +1,5 @@
 # Brain-Breast Tumor Classification and Segmentation
 
-This is a keras implementation of single super resolution algorithms: [EDSR](https://arxiv.org/abs/1707.02921), [SRGAN](https://arxiv.org/abs/1609.04802), [SRFeat](http://openaccess.thecvf.com/content_ECCV_2018/papers/Seong-Jin_Park_SRFeat_Single_Image_ECCV_2018_paper.pdf), [RCAN](https://arxiv.org/abs/1807.02758), [ESRGAN](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Wang_ESRGAN_Enhanced_Super-Resolution_Generative_Adversarial_Networks_ECCVW_2018_paper.pdf) and [ERCA](https://drive.google.com/open?id=1GFEMT8rCR7SovhudMWFP_lvP_DrtHoTP) (ours). This project aims to improve the performace of the baseline (SRFeat).
-
 To run this project you need to setup the environment, train and test the network models. I will show you step by step to run this project and i hope it is clear enough.
 
 ## Prerequiste
@@ -10,7 +8,9 @@ I tested my project in Corei7, 16G RAM, GPU RTX2070-super.
 
 ## Environment
 
-I recommend you using virtualenv to create a virtual environments. You can install virtualenv (which is itself a pip package) via
+I recommend you using virtualenv to create two virtual environments, one for Mask-rcnn and another for the rest of the project.
+
+You can install virtualenv (which is itself a pip package) via
 
 ```
 pip install virtualenv
@@ -31,8 +31,13 @@ source .env/bin/activate
 Install dependencies:
 
 ```
-pip install -r requirements.txt
+for the Mask-rcnn environment
+pip install -r mrcnn_requirements.txt
+
 ```
+
+for the rest of the project
+pip install -r requirements.txt
 
 ## Dataset
 
