@@ -33,7 +33,6 @@ Install dependencies:
 ```
 for the Mask-rcnn environment
 pip install -r mrcnn_requirements.txt
-
 ```
 
 for the rest of the project
@@ -66,7 +65,7 @@ You can find the hierarchy and the model metrics in the PDF file [here](<https:/
 We made the deployment on a Flask server that you acn run using the file [test.py](https://github.com/Gooda97/Brain-Breast-Tumor-Classification-and-Segmentation/blob/main/Deploy/test.py) After training all the models and place the trained models in this [directory](https://github.com/Gooda97/Brain-Breast-Tumor-Classification-and-Segmentation/tree/main/Deploy)
 
 
+https://github.com/Gooda97/Brain-Breast-Tumor-Classification-and-Segmentation/assets/58276039/6a9ec35b-b53e-4a22-9d1f-7c702c221909
 
 
-https://github.com/Gooda97/Brain-Breast-Tumor-Classification-and-Segmentation/assets/58276039/72ae66bf-3fd7-4e51-85fb-d62885eb6b33
 
