@@ -30,13 +30,15 @@ source .env/bin/activate
 
 Install dependencies:
 
-```
 for the Mask-rcnn environment
+```
 pip install -r mrcnn_requirements.txt
 ```
 
 for the rest of the project
+```
 pip install -r requirements.txt
+```
 
 ## Dataset
 
